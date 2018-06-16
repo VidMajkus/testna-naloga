@@ -1,4 +1,6 @@
-
+body {
+	background-color: #f2f2f2;
+}
 /*slider styles*/
 .first-slider {
 	height:400px;
@@ -22,3 +24,21 @@
 	width: 100%;
 }
 
+/*znamke styles*/
+.znamke img {
+	 height: 65px;
+	object-fit: fill;
+	width: 100%;
+}
+
+.vid-pred iframe {
+	padding: 0;
+	border: none;
+}
+
+
+
+
+footer {
+	height: 500px;
+}
