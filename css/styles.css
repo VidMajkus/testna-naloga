@@ -1,0 +1,24 @@
+
+/*slider styles*/
+.first-slider {
+	height:400px;
+	background: lightgray;
+
+}
+
+/*3 pic section styles*/
+.three-pic-first img,
+.three-pic-second img
+{	
+ 	height: 365px;
+	object-fit: fill;
+	width: 100%;
+}
+
+/*oblacila adidas originals styles*/
+.adidas-originals img {
+	object-fit: fill;
+	height: 450px;
+	width: 100%;
+}
+
