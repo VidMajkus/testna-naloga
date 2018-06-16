@@ -13,29 +13,40 @@ body {
 .three-pic-second img
 {	
  	height: 365px;
-	object-fit: fill;
 	width: 100%;
 }
 
 /*oblacila adidas originals styles*/
 .adidas-originals img {
-	object-fit: fill;
 	height: 450px;
 	width: 100%;
 }
 
 /*znamke styles*/
 .znamke img {
-	 height: 65px;
+	height: 65px;
 	object-fit: fill;
 	width: 100%;
 }
+
+/*Video section styles*/
 
 .vid-pred iframe {
 	padding: 0;
 	border: none;
 }
 
+.naslov-vid {
+	width: 100%;
+	color: #fff;
+	background-color: #000;
+	padding: 10px 0 10px 10px;
+	font-weight: 700;
+}
+
+.slika-cevelj img {
+	width: 100%;
+}
 
 
 
