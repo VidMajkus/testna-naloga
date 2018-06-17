@@ -4,6 +4,14 @@ body {
 }
 /*slider styles*/
 
+/*before nav styles*/
+
+.before-nav {
+	font-size: 15px;
+	font-family: 'Teko', sans-serif;
+	text-align: center;
+
+}
 
 /*3 pic section styles*/
 .three-pic-first img,
