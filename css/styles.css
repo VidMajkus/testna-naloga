@@ -1,5 +1,6 @@
 body {
 	background-color: #f2f2f2;
+	padding: 10px;
 }
 /*slider styles*/
 .first-slider {
@@ -12,21 +13,21 @@ body {
 .three-pic-first img,
 .three-pic-second img
 {	
- 	height: 365px;
-	width: 100%;
+ 	height: auto;
+	max-width: 100%;
 }
 
 /*oblacila adidas originals styles*/
 .adidas-originals img {
-	height: 450px;
-	width: 100%;
+	height: auto;
+	max-width: 100%;
 }
 
 /*znamke styles*/
 .znamke img {
-	height: 65px;
+	height: auto;
 	object-fit: fill;
-	width: 100%;
+	max-width: 100%;
 }
 
 /*Video section styles*/
@@ -48,8 +49,46 @@ body {
 	width: 100%;
 }
 
+/*e-novice stlyes*/
+
+.e-novice {
+	height: 50px;
+	background-color: #eec700;
+}
 
 
+
+
+/*Footer styles*/
 footer {
-	height: 500px;
+	max-height: 600px;
+	min-height: 300px;
+	background-color: #000;
+	color:#fff;
+	padding-top: 30px;
+}
+
+footer ul {
+	list-style-type: none;
+}
+
+footer ul li{
+	line-height: 35px;
+}
+
+footer ul span {
+	border-bottom: 1px solid #eec700;
+	font-weight: 700;
+	font-size: 1.5rem;	
+}
+
+footer a {
+	
+	color: inherit;
+
+}
+
+footer a:hover {
+	text-decoration: none;
+	color: #eec700
 }
