@@ -74,14 +74,19 @@ body {
 	width: 100%;
 }
 
-/*big modeli pics styles*/
+/*Ženski in moški modeli big styles*/
 
-.sirina-90 {
-	width: 95%;
+.title-moski-modeli,
+.title-zenski-modeli {
+	position: relative;
+	margin-bottom: 12px;
 }
-
-.sirina-10 {
-	width: 10%;
+.yellow-arrow {
+	position: absolute;
+	right: 0;
+	top:0;
+	width:50px;
+	height: 50px;
 }
 
 /*Obišči nas v styles + e-novice stlyes */
