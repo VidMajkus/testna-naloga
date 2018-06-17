@@ -59,19 +59,54 @@ body {
 	width: 10%;
 }
 
+/*Obišči nas v styles + e-novice stlyes */
 
+.obisci-nas-backg {
+	background-color: #eec700;
+	height: 60px;
+}
 
+.sledi-nam h3,
+.sneakers-blog h3 {
+	border-top: 1px solid black;
+	font-weight: 600;
+	font-size: 2.3rem;
+}
 
-/*e-novice stlyes*/
+.sledi-nam img {
+	height: 80px;
+	width: 80px;
+}
+
+.button-read {
+	width: 100%;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	font-size: 1.5rem;
+	padding: 15px;
+	border-radius: 5px;
+}
+.button-read a {
+	text-decoration: none;
+	color: #fff;
+}
+.button-read a:hover {
+	text-decoration: none;
+	color: #eec700;
+}
+
 
 .e-novice {
 	max-height: 160px;
 	background-color: #eec700;
 }
 
-.e-naslov {
+.e-naslov,
+.obisci-nas-backg h2 {
 	font-weight: 700;
 	padding-left: 20px;
+	font-family: 'Teko', sans-serif;
 }
 
 .e-input {
