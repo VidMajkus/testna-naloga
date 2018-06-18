@@ -1,3 +1,35 @@
+
+$('.first-slider').slick({
+  arrows: false,
+       autoplay: true,
+         speed:300,
+         arrows: false,
+       infinite: true,
+         draggable: true,
+         dots: true,
+         slidesToShow: 1,
+         slidesToScroll: 1
+})
+
+$('.left').click(function(){
+  $('.first-slider').slick('slickPrev');
+})
+
+$('.right').click(function(){
+  $('.first-slider').slick('slickNext');
+})
+
+$(document).ready(function(){
+      $('.second-slider').slick({
+          autoplay: true,
+          speed:300,
+          infinite: true,
+        slidesToShow: 1,
+          slidesToScroll: 1,
+      });
+    });
+
+
 // Make a get request for testna naloga
 axios.get('https://world.openfoodfacts.org/api/v0/product/737628064502.json')
   .then(function (response) {
@@ -15,5 +47,5 @@ axios.get('https://world.openfoodfacts.org/api/v0/product/737628064502.json')
     console.log(error);
   });
 
-  
+
 
