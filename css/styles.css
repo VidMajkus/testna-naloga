@@ -1,16 +1,91 @@
 body {
 	background-color: #f2f2f2;
 	padding: 10px;
+	font-family: 'Teko', sans-serif;
 }
 /*slider styles*/
+
+.arrow-wraps {
+	position: relative;
+}
+
+.left {
+	top: 0;
+	left: 15px;
+}
+
+.left,
+.right{
+	position: absolute;
+	font-size: 50px;
+	height: 100%;
+	background-color: #000;
+	width: 80px;
+	opacity: 0.4;
+}
+
+.right {
+	top: 0;
+	right: 15px;
+}
+
+.right img,
+.left img {
+	position: absolute;
+    top: 50%;
+    left: 25%;
+}
+
+.left img {
+	transform: rotate(180deg)
+}
+
+.slick-dots {
+  top: 250px;  
+  max-height:30px;
+  font-size: 100px;
+}
+
+ .slick-dots li button:before{
+    font-size: 70px;
+    line-height: 70px;
+    color: yellow; 
+ }
+
+
 
 /*before nav styles*/
 
 .before-nav {
 	font-size: 15px;
-	font-family: 'Teko', sans-serif;
 	text-align: center;
 
+}
+
+/*Nav-bar styles*/
+
+.part-rigt {
+	list-style-type: none;
+}
+nav {
+	background-color: #000;
+}
+
+a.nav-link {
+	color: #eec700;
+	font-size: 1.2rem;
+	font-weight: 600;
+	padding: 0;
+}
+
+a.nav-link:hover {
+	border-bottom: 3px solid #eec700;
+	color: #eec700;
+}
+.prijava {
+	color: #f2f2f2;
+	font-size: 1.2rem;
+	font-weight: 600;
 }
 
 /*3 pic section styles*/
@@ -28,9 +103,8 @@ body {
 }
 
 /*znamke styles*/
-.znamke img {
+.znamke img, .second-slider img {
 	height: auto;
-	object-fit: fill;
 	max-width: 100%;
 }
 
@@ -148,7 +222,6 @@ body {
 .obisci-nas-backg h2 {
 	font-weight: 700;
 	padding-left: 20px;
-	font-family: 'Teko', sans-serif;
 }
 
 .e-input {
