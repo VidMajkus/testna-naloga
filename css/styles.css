@@ -3,6 +3,40 @@ body {
 	padding: 10px;
 	font-family: 'Teko', sans-serif;
 }
+
+/*before nav styles*/
+
+.before-nav {
+	font-size: 18px;
+	text-align: center;
+}
+
+/*Nav-bar styles*/
+
+.part-rigt {
+	list-style-type: none;
+}
+nav {
+	background-color: #000;
+}
+
+a.nav-link {
+	color: #eec700;
+	font-size: 1.2rem;
+	font-weight: 600;
+	padding: 0;
+}
+
+a.nav-link:hover {
+	border-bottom: 3px solid #eec700;
+	color: #eec700;
+}
+.prijava {
+	color: #f2f2f2;
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+
 /*slider styles*/
 
 .arrow-wraps {
@@ -51,42 +85,6 @@ body {
     line-height: 70px;
     color: yellow; 
  }
-
-
-
-/*before nav styles*/
-
-.before-nav {
-	font-size: 15px;
-	text-align: center;
-
-}
-
-/*Nav-bar styles*/
-
-.part-rigt {
-	list-style-type: none;
-}
-nav {
-	background-color: #000;
-}
-
-a.nav-link {
-	color: #eec700;
-	font-size: 1.2rem;
-	font-weight: 600;
-	padding: 0;
-}
-
-a.nav-link:hover {
-	border-bottom: 3px solid #eec700;
-	color: #eec700;
-}
-.prijava {
-	color: #f2f2f2;
-	font-size: 1.2rem;
-	font-weight: 600;
-}
 
 /*3 pic section styles*/
 .three-pic-first img,
